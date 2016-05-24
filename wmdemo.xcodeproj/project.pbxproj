@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E985E4E51CF3E60D001C46C8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985E4E41CF3E60D001C46C8 /* SettingViewController.swift */; };
+		E985E4E71CF3EFC2001C46C8 /* SignInSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985E4E61CF3EFC2001C46C8 /* SignInSettingViewController.swift */; };
+		E9A7D07A1CF368E700647DDC /* ViewTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D0791CF368E700647DDC /* ViewTermsViewController.swift */; };
+		E9A7D07E1CF3E21A00647DDC /* HavingTroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D07D1CF3E21A00647DDC /* HavingTroubleViewController.swift */; };
 		E9C80C4C1CEBE33A00C7DFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C80C4B1CEBE33A00C7DFBE /* AppDelegate.swift */; };
 		E9C80C4E1CEBE33A00C7DFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C80C4D1CEBE33A00C7DFBE /* ViewController.swift */; };
 		E9C80C511CEBE33A00C7DFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C80C4F1CEBE33A00C7DFBE /* Main.storyboard */; };
@@ -14,6 +18,8 @@
 		E9C80C561CEBE33A00C7DFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C80C541CEBE33A00C7DFBE /* LaunchScreen.storyboard */; };
 		E9C80C611CEBE33A00C7DFBE /* wmdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C80C601CEBE33A00C7DFBE /* wmdemoTests.swift */; };
 		E9C80C6C1CEBE33A00C7DFBE /* wmdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C80C6B1CEBE33A00C7DFBE /* wmdemoUITests.swift */; };
+		E9C80C7A1CEBED5400C7DFBE /* welcome to.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C80C791CEBED5400C7DFBE /* welcome to.swift */; };
+		E9C80C7C1CEBF60300C7DFBE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C80C7B1CEBF60300C7DFBE /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E985E4E41CF3E60D001C46C8 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E985E4E61CF3EFC2001C46C8 /* SignInSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSettingViewController.swift; sourceTree = "<group>"; };
+		E9A7D0791CF368E700647DDC /* ViewTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTermsViewController.swift; sourceTree = "<group>"; };
+		E9A7D07D1CF3E21A00647DDC /* HavingTroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HavingTroubleViewController.swift; sourceTree = "<group>"; };
 		E9C80C481CEBE33A00C7DFBE /* wmdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wmdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C80C4B1CEBE33A00C7DFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C80C4D1CEBE33A00C7DFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		E9C80C671CEBE33A00C7DFBE /* wmdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wmdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C80C6B1CEBE33A00C7DFBE /* wmdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wmdemoUITests.swift; sourceTree = "<group>"; };
 		E9C80C6D1CEBE33A00C7DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C80C791CEBED5400C7DFBE /* welcome to.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "welcome to.swift"; sourceTree = "<group>"; };
+		E9C80C7B1CEBF60300C7DFBE /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				E9C80C521CEBE33A00C7DFBE /* Assets.xcassets */,
 				E9C80C541CEBE33A00C7DFBE /* LaunchScreen.storyboard */,
 				E9C80C571CEBE33A00C7DFBE /* Info.plist */,
+				E9C80C791CEBED5400C7DFBE /* welcome to.swift */,
+				E9C80C7B1CEBF60300C7DFBE /* WelcomeViewController.swift */,
+				E9A7D0791CF368E700647DDC /* ViewTermsViewController.swift */,
+				E9A7D07D1CF3E21A00647DDC /* HavingTroubleViewController.swift */,
+				E985E4E41CF3E60D001C46C8 /* SettingViewController.swift */,
+				E985E4E61CF3EFC2001C46C8 /* SignInSettingViewController.swift */,
 			);
 			path = wmdemo;
 			sourceTree = "<group>";
@@ -256,7 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C80C7A1CEBED5400C7DFBE /* welcome to.swift in Sources */,
+				E9A7D07E1CF3E21A00647DDC /* HavingTroubleViewController.swift in Sources */,
+				E9C80C7C1CEBF60300C7DFBE /* WelcomeViewController.swift in Sources */,
+				E985E4E71CF3EFC2001C46C8 /* SignInSettingViewController.swift in Sources */,
 				E9C80C4E1CEBE33A00C7DFBE /* ViewController.swift in Sources */,
+				E9A7D07A1CF368E700647DDC /* ViewTermsViewController.swift in Sources */,
+				E985E4E51CF3E60D001C46C8 /* SettingViewController.swift in Sources */,
 				E9C80C4C1CEBE33A00C7DFBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +506,7 @@
 				E9C80C721CEBE33A00C7DFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9C80C731CEBE33A00C7DFBE /* Build configuration list for PBXNativeTarget "wmdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				E9C80C751CEBE33A00C7DFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9C80C761CEBE33A00C7DFBE /* Build configuration list for PBXNativeTarget "wmdemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				E9C80C781CEBE33A00C7DFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
